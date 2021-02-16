@@ -1,0 +1,34 @@
+  body {
+    position: relative;
+    width: 100%;
+    display: block;
+    color:white;
+    background-color:black;
+    font-family: Poppins;
+  }
+
+  body > *  {
+    margin: auto;
+    width: 500px;
+    display: block;
+    overflow: auto;
+  }
+
+.my-button {
+    background-color:rebeccapurple;
+    font-size:26px;
+    color: white;
+}
+
+.my-button:hover {
+background-color: red;
+cursor: pointer;
+}
+
+.showres p{
+    background-color:rebeccapurple !important;
+    color:white !important;
+    text-align: center;
+    font-size:42px;
+    font-family: Poppins;
+}
